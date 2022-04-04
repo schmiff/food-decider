@@ -12,6 +12,6 @@ export default function Home() {
 }
 
 const className = {
-  container: "flex place-content-center",
+  container: "flex place-content-center bg-red-400",
   headline_big: "text-4xl",
 }

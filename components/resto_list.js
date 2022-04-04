@@ -15,13 +15,15 @@ const RestoList = () => {
     return unsubscribe
   }, [])
   return(
-    <div>
-      {restos.map(resto => <div className={className.headline_big} key={resto.id}>{ resto.name }</div>)}
+    <div className={className.container}>
+      <div>
+        {restos.map(resto => <div className={className.list_item} key={resto.id}>{ resto.name }</div>)}
+      </div>
     </div>
   )
   }
   const className = {
-    container: "flex place-content-center",
-    headline_big: "text-4xl",
+    container: "bg-blue-300 ",
+    list_item: "text-4xl",
   }
   export default RestoList
