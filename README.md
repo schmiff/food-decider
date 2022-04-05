@@ -1,3 +1,3 @@
 # Food Decider
 
-cant decide where to eat? welp..
+cant decide where to eat..
